@@ -16,6 +16,7 @@ public:
     Matrix(std::size_t N);
     Matrix(std::vector<std::vector<T>> nums);
 
+    static file_read(const std::string &myfile);
     Matrix operator+(const Matrix &rhs) const;
     Matrix operator*(const Matrix &rhs) const;
     void set_value(std::size_t i, std::size_t j, int n);
